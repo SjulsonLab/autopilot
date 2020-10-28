@@ -3,6 +3,7 @@ from autopilot.tasks.nafc import Nafc, Nafc_Gap
 from autopilot.tasks.gonogo import GoNoGo
 from autopilot.tasks.parallax import Parallax
 from autopilot.tasks.free_water import Free_Water
+from autopilot.tasks.free_water_LS import Free_Water_LS # wotan
 from autopilot.tasks.graduation import GRAD_LIST
 from autopilot.tasks.children import Wheel_Child, Video_Child, Transformer
 from autopilot.tasks.test import DLC_Latency, DLC_Hand
@@ -11,6 +12,7 @@ from autopilot.tasks.test import DLC_Latency, DLC_Hand
 TASK_LIST = {'2AFC':Nafc,
              '2AFC_Gap':Nafc_Gap,
              'Free Water':Free_Water,
+             'Free Water LS':Free_Water_LS, # wotan
              'GoNoGo': GoNoGo,
              'Parallax': Parallax,
              'Test_DLC_Latency': DLC_Latency,
