@@ -85,7 +85,7 @@ class Free_Water_LS(Task):
             allow_repeat (bool): Whether the correct port is allowed to repeat between trials
             **kwargs:
         """
-        super(Free_Water, self).__init__()
+        super(Free_Water_LS, self).__init__()
 
         if not stage_block:
             raise Warning('No stage_block Event() was passed, youll need to handle stage progression on your own')
