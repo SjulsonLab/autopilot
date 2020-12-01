@@ -65,6 +65,11 @@ class Free_Water(Task):
             'L': autopilot.hardware.gpio.Solenoid,
             'C': autopilot.hardware.gpio.Solenoid,
             'R': autopilot.hardware.gpio.Solenoid
+        },
+        'GPIO':{
+            'IO1': autopilot.hardware.gpio.Digital_Out,
+            'IO2': autopilot.hardware.gpio.Digital_Out,
+            'IO3': autopilot.hardware.gpio.Digital_Out
         }
     }
 
